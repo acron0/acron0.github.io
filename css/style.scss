@@ -1,0 +1,145 @@
+---
+---
+
+// Vars
+
+$primary-txt-color: #925eb0;
+
+// ---
+
+html, body {
+  background-color: #000;
+  color: #fff;
+}
+
+h1 {
+  color: $primary-txt-color;
+}
+
+a, a:visited, a:hover, a:active {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+// ---
+
+.container {
+  font-family: 'VT323', monospace;
+  margin: 0 auto;
+}
+
+header {
+  margin: 1em;
+}
+
+header pre {
+  line-height: 1.1em;
+  overflow: hidden;
+  width: 423px;
+  display: block;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.content {
+  font-family: monospace;
+}
+
+.subtitle, .social {
+  text-align: center;
+}
+
+.social a {
+  margin: 0.2em;
+}
+
+.media {
+  margin: 1em;
+}
+
+.media > img {
+  width: 76px;
+  height: 64px;
+}
+.media > .media-body > h4 > i {
+  font-size: 11px;
+  color: $primary-txt-color;
+  font-style: normal;
+  letter-spacing: -1px;
+  display: block;
+}
+
+.project-technologies {
+  padding: 0;
+  color: lavenderblush;
+  text-align: right;
+}
+
+.project-technologies > li {
+  display: inline;
+}
+
+.badge-tech-clojure {
+  background-color: #925EB0;
+}
+.badge-tech-clojurescript {
+  background-color: #91649A;
+}
+.badge-tech-bash {
+  background-color: #C88F8D;
+}
+.badge-tech-docker {
+  background-color: #D8968B;
+}
+.badge-tech-aws {
+  background-color: #BA3C31;
+}
+.badge-tech-dcos {
+  background-color: #848FAD;
+}
+.badge-tech-wordpress {
+  background-color: #6CB5A0;
+}
+.badge-tech-css {
+  background-color: #829D7D;
+}
+.badge-tech-html {
+  background-color: #486C5E;
+}
+.badge-tech-javascript {
+  background-color: #B5B489;
+}
+.badge-tech-php {
+  background-color: #985C47;
+}
+.badge-tech-unity3d {
+  background-color: #403E41;
+}
+.badge-tech-vr {
+  background-color: #DF9855;
+}
+.badge-tech-c\# {
+  background-color: #90575B;
+}
+.badge-tech-c\+\+ {
+  background-color: #A34B78;
+}
+.badge-tech-win32 {
+  background-color: #E2B758;
+}
+.badge-tech-plc {
+  background-color: #CDB456;
+}
+.badge-tech-wpf {
+  background-color: #809C9E;
+}
+.badge-tech-directx {
+  background-color: #C36070;
+}
+.badge-tech-xbox360 {
+  background-color: #4d8b13;
+}
+.badge-tech-ps3 {
+  background-color: #1783e8;
+}

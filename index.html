@@ -1,0 +1,74 @@
+---
+# this is an empty front matter
+---
+<!DOCTYPE html>
+<html lang="en">
+    <title>acron :: Antony Woods :: developer of software</title>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <pre>
+ ▄▄▄       ▄████▄   ██▀███   ▒█████   ███▄    █
+▒████▄    ▒██▀ ▀█  ▓██ ▒ ██▒▒██▒  ██▒ ██ ▀█   █
+▒██  ▀█▄  ▒▓█    ▄ ▓██ ░▄█ ▒▒██░  ██▒▓██  ▀█ ██▒
+░██▄▄▄▄██ ▒▓▓▄ ▄██▒▒██▀▀█▄  ▒██   ██░▓██▒  ▐▌██▒
+ ▓█   ▓██▒▒ ▓███▀ ░░██▓ ▒██▒░ ████▓▒░▒██░   ▓██░
+ ▒▒   ▓▒█░░ ░▒ ▒  ░░ ▒▓ ░▒▓░░ ▒░▒░▒░ ░ ▒░   ▒ ▒
+  ▒   ▒▒ ░  ░  ▒     ░▒ ░ ▒░  ░ ▒ ▒░ ░ ░░   ░ ▒░
+  ░   ▒   ░          ░░   ░ ░ ░ ░ ▒     ░   ░ ░
+      ░  ░░ ░         ░         ░ ░           ░
+          ░                                     ░
+            </pre>
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="subtitle">developer of software</h1>
+                </div>
+            </div>
+            <div class="row social">
+                <div class="col">
+                    <a href="https://twitter.com/acron">
+                        <svg id="i-twitter" viewBox="0 0 64 64" width="32" height="32">
+                            <path stroke-width="0" fill="currentColor" d="M60 16 L54 17 L58 12 L51 14 C42 4 28 15 32 24 C16 24 8 12 8 12 C8 12 2 21 12 28 L6 26 C6 32 10 36 17 38 L10 38 C14 46 21 46 21 46 C21 46 15 51 4 51 C37 67 57 37 54 21 Z" />
+                        </svg>
+                    </a>
+                    <a href="https://github.com/acron0">
+                        <svg id="i-github" viewBox="0 0 64 64" width="32" height="32">
+                            <path stroke-width="0" fill="currentColor" d="M32 0 C14 0 0 14 0 32 0 53 19 62 22 62 24 62 24 61 24 60 L24 55 C17 57 14 53 13 50 13 50 13 49 11 47 10 46 6 44 10 44 13 44 15 48 15 48 18 52 22 51 24 50 24 48 26 46 26 46 18 45 12 42 12 31 12 27 13 24 15 22 15 22 13 18 15 13 15 13 20 13 24 17 27 15 37 15 40 17 44 13 49 13 49 13 51 20 49 22 49 22 51 24 52 27 52 31 52 42 45 45 38 46 39 47 40 49 40 52 L40 60 C40 61 40 62 42 62 45 62 64 53 64 32 64 14 50 0 32 0 Z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="row content">
+                <div class="col">
+                    <ul class="list-unstyled">
+                        {% for project in site.data.projects %}
+                        <li class="media">
+                            <img class="mr-3" src="/img/{{ project.icon }}">
+                            <div class="media-body">
+                                <h4 class="mt-0 mb-1">{{ project.title }} <i>{{ project.org }}</i></h4>
+                                <div class="project-description">{{ project.description }} Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                                <ul class="project-technologies">
+                                    {% assign tech = project.technology | split: "|" %}
+                                    {% for t in tech %}
+                                    <li><span class="badge badge-tech-{{ t }}">{{ t }}</span></li>
+                                    {% endfor  %}
+                                </ul>
+                            </div>
+                        </li>
+                        {% endfor  %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
