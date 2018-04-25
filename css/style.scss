@@ -70,6 +70,13 @@ header pre {
   display: block;
 }
 
+div.other-stuff {
+  border-top: 1px solid $primary-txt-color;
+  padding: 1em;
+  text-align: center;
+  font-size: 24px;
+}
+
 .project-technologies {
   padding: 0;
   color: lavenderblush;
