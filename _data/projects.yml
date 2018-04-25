@@ -1,0 +1,55 @@
+- org: Mastodon C
+  title: Witan,
+  link: https://github.com/MastodonC?utf8=✓&q=witan
+  icon: witan-logo.png
+  description: For a long time I had been interested in LISP as a concept. Years of OOP had taken it's toll on me and I was ready for something new. Functional languages, especially Clojure, appealed to me and so when the opportunity came up to work with it full-time I was very enthusiastic. Mastodon C were interested in my experiences of user interface development, my frontend knowledge and my Clojure experience/curiosity, to work on their ClojureScript applications. After a few months there were opportunities for me to move into backend work as well and I was keen to develop in this area. The Witan project is a top-to-bottom Clojure application which provides councils and local organisations (such as the GLA, EST etc) a platform for secure file management, with a pipeline into Mastodon C's bespoke data science and modelling products. Beyond frontend development in ClojureScript and backend development in Clojure, I have also been heavily involved in devops, predominantly helping to setup and manage several AWS accounts, including interfacing with various Amazon services such as DynamoDB, Kinesis, SES etc. I've also worked on orchestration using tools like DCOS and Kubernetes.
+  technology: clojure|clojurescript|html|css|javascript|bash|docker|aws|dcos|kubernetes
+
+- org: Onslaught.gg
+  title: Theming
+  link: http://onslaught.gg
+  icon: onslaught.png
+  description: Onslaught are an esports organisation with teams in titles such as PUBG, Fortnite, Rocket League etc. Having never worked with WordPress before I was interested to help them with some of the theme customisations they wanted, as an opportunity to learn. I have re-vamped their team and play bio pages.
+  technology: wordpress|php|html|css|javascript
+
+- org: Simworx
+  title: VR ~ Attractions preview
+  link: http://www.simworx.co.uk/
+  icon: simworx.png
+  description: At Simworx, I was asked to do everything from Intranet support to PLC tooling, but the most interesting project was for a virtual reality 'attraction preview' application. The project started as a tool to test video footage received from digital art agencies, but ended up as a sales tool. Clients would come in, put on an Occulus Rift VR headset (DK2, at the time), and via a remote iPad interface, a member of staff would guide them through a series of promotional experiences which showed off what the rides would be like. I had used Unity for some freelance work and hobby projects but this was the first time I was able to use it in anger, and together with the Occulus Rift, it was a great tool.
+  technology: unity3d|vr|c#|win32
+
+- org: Inspired Gaming
+  title: Core UI
+  link: https://www.inseinc.com/gaming/server-based-gaming
+  icon: coreui.png
+  description: Following the success of the "Smart Deck" project, I was given a team and asked to lead on a new, greenfield project ~ to recreate their main menu interface technology, ditching the legacy Flash application in favour of something more contemporary and data-driven. I was responsible for designing and architecting a new solution, which eventually became a WPF application which embedded Chrome in various places ~ a combination of C#, XAML, JavaScript and HTML. The project was an objective success ~ Inspired's products continue to use Core UI today throughout international territories. On a personal level, leading and coaching a team was exhilarating and allowed me to develop valuable soft skills. Technologically, the project was broad and gave me a greater appreciation for application design.
+  technology: wpf|c#|c++|html|css|javascript|win32
+
+- org: Inspired Gaming
+  title: Numerous FOBT games
+  link: https://www.inseinc.com/gaming/server-based-gaming
+  icon: fobt.png
+  description: Inspired were very keen to learn from my game development experience, specifically how to streamline their struggling development process. During my time there, as well as being a core programmer on many of their successful, international titles, I also helped to refine many of their processes and contributed large amounts of code to their technology. I was approached to prototype a new screen technology with eventually became Inspired's "Smart Deck" technology ~ a core feature on their Eclipse cabinets.
+  technology: directx|c++|win32
+
+- org: Blitz Games
+  title: Yoostar 2 (360/PS3)
+  link: https://www.amazon.co.uk/Yoostar-Kinect-compatible-Xbox-360/dp/B004I6EOE0
+  icon: yoostar2.png
+  description: Yoostar 2 was built by a team of about ten people, using Blitz' proprietary cross-platform engine. I was responsible for implementing all the UI and UX in the game, including collaboration with an external design agency to come up with a novel main menu design. Yoostar was intended to be a Kinect release title, although was eventually pushed back by the publisher. The Kinect was pre-release during development so I was also working with Microsoft to give feedback on their new APIs. This was my first cross-platform game and gave me exposure to working with the Xbox 360 and PS3 platforms.
+  technology: c++|xbox360|ps3
+
+- org: Blitz Games
+  title: All Star Karate (Wii)
+  link: https://www.amazon.co.uk/THQ-SAGEN-01051-All-Star-Karate/dp/B003GAMXBK
+  icon: ask.png
+  description: Blitz Games was a fantastic place to flourish as a young, keen game programmer. They were extremely nurturing and I was able to develop a confidence in my work. ASK was a fairly straightforward Wii project. I was primarily responsible for all the interface implementation, which included an animated cutscene system which integrated into Blitz' proprietary editor and the character customisation feature. There was a great bond within the team and we remain in touch to this day.
+  technology: c++|wii
+
+- org: Halch
+  title: Bob the Builder ~ Festival of Fun (Wii)
+  link: https://www.amazon.co.uk/Bob-Builder-Festival-Fun-Wii/dp/B0014VJ23A
+  icon: bob.png
+  description: My first real professional opportunity since leaving University was at a small, independent games studio in Middlesbrough ~ Halch. As well as several of their own IP projects they did work-for-hire for other studios and publishers. Bob was built on a proprietary Wii engine. Me and one other programmer were responsible for implementing all of the game's levels. Each was essentially a separate mini-game and we each took care of the whole vertical for that level ~ logic, rendering, audio, tooling.
+  technology: c++|wii
