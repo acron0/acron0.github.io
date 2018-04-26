@@ -1,5 +1,5 @@
 - org: Mastodon C
-  title: Witan,
+  title: Witan
   link: https://github.com/MastodonC?utf8=✓&q=witan
   icon: witan-logo.png
   description: For a long time I had been interested in LISP as a concept. Years of OOP had taken it's toll on me and I was ready for something new. Functional languages, especially Clojure, appealed to me and so when the opportunity came up to work with it full-time I was very enthusiastic. Mastodon C were interested in my experiences of user interface development, my frontend knowledge and my Clojure experience/curiosity, to work on their ClojureScript applications. After a few months there were opportunities for me to move into backend work as well and I was keen to develop in this area. The Witan project is a top-to-bottom Clojure application which provides councils and local organisations (such as the GLA, EST etc) a platform for secure file management, with a pipeline into Mastodon C's bespoke data science and modelling products. Beyond frontend development in ClojureScript and backend development in Clojure, I have also been heavily involved in devops, predominantly helping to setup and manage several AWS accounts, including interfacing with various Amazon services such as DynamoDB, Kinesis, SES etc. I've also worked on orchestration using tools like DCOS and Kubernetes.
