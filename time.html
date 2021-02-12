@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <div id="time">
+        </div>
+        <script type="application/javascript">
+         var d = new Date();
+         var n = d.getHours();
+         var greeting = "";
+         if(n < 12) {
+             greeting = "Morning"
+         } else {
+             greeting = "Evening"
+         }
+         document.getElementById('time').innerText = "Good " + greeting + "!";
+        </script>
+    </body>
+</html>
